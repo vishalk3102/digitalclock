@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  border: 2px solid red;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+}
+
+.heading {
+  color: black;
+  font-size: 4rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.timeBox {
+  border: 5px solid black;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 580px;
+}
+.time {
+  color: black;
+  font-size: 3.5rem;
+}
